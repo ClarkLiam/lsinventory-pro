@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LS Inventory PRO - Packlists</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="title">LS Inventory PRO - Packlists (Manual)</div>
+  <img id="logo" src="LS Visuals LOGO 2.png" />
+</header>
+
+<div class="controls">
+  <input id="packName" placeholder="PACK + REF" value="PACK26XXX" />
+  <input id="packInfo" placeholder="Pack Info / Event Name" value="EVENT 0815" />
+
+  <!-- DATE PICKER -->
+  <input id="packDate" type="date"  />
+
+  <input id="packId" placeholder="Pack ID / Case ID" value="CASE0815" />
+
+  <label class="file-btn">
+    Upload CSV
+    <input type="file" id="csvFile" accept=".csv" />
+  </label>
+
+  <button onclick="generate()">Generate</button>
+  <button onclick="printCanvas()">Print</button>
+  <button onclick="exportPDF()">Save PDF</button>
+</div>
+
+<div class="preview-wrapper">
+  <canvas id="sheet" width="1240" height="1754"></canvas>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator/qrcode.js"></script>
+<script src="generator.js"></script>
+
+</body>
+</html>

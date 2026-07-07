@@ -1,0 +1,14 @@
+INV0043, ip Camera,
+LSM@00430100, supra ip-Camera ipc25-hdc, 1
+LSM@00430200, supra ip-Camera ipc25-hdc, 1
+LSM@00430300, supra ip-Camera ipc25-hdc, 1
+LSM@00430400, supra ip-Camera ipc25-hdc, 1
+LSM@00440100, AKASO ActionCam V50, 1
+LSM@00320100, DELL PowerConnect 5548, 1
+INV0036, POE Accessories,
+LSM@00360100, POE Injector, 1
+LSM@00360200, POE Injector, 1
+LSM@00350100, Patchpannel, 1
+LSM@00090100, ASUS Router RT-N12, 1
+LSM@00310100, ASUS Router RT-56U, 1
+LSM@00330100, transtec ControlPC, 1

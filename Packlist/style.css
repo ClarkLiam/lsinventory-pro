@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1220;
+  color: #e6f0ff;
+}
+
+/* TOP BAR */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background: #0f1b33;
+  border-bottom: 1px solid #1f2f55;
+}
+
+#logo {
+  height: 38px;
+}
+
+/* CONTROLS */
+.controls {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  background: #0c1529;
+  border-bottom: 1px solid #1f2f55;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.controls input {
+  background: #111c33;
+  border: 1px solid #22355f;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.controls button {
+  background: #1f4fff;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #2d66ff;
+}
+
+/* FILE BUTTON */
+.file-btn {
+  background: #1f4fff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.file-btn input {
+  display: none;
+}
+
+/* PREVIEW */
+.preview-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background: #070c18;
+}
+
+#sheet {
+  transform: scale(0.65);
+  transform-origin: top center;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
